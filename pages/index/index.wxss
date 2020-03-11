@@ -1,0 +1,72 @@
+/**index.wxss**/
+.change-lang {
+  color: #8995a1;
+  font-size: 24rpx;
+  padding: 30rpx 40rpx;
+  display: flex;
+  align-items: center;
+}
+.change-lang .icon-down {
+  color: #8995a1;
+  font-size: 30rpx;
+}
+.translate-area {
+  position: relative;
+}
+
+.translate-area .icon-close {
+  position: absolute;
+  right: 12rpx;
+  top: 20rpx;
+  z-index: 100;
+  font-size: 35rpx;
+  color: #888;
+}
+.translate-area .textarea-wrap {
+  display: flex;
+  background: #fff;
+  border-bottom: 1px solid #c7cee0;
+}
+.translate-area .zhanwei {
+  background: #fff;
+  width: 10rpx
+}
+.translate-area .textarea {
+  padding: 20rpx 40rpx;
+  width: calc(100% - 40rpx);
+}
+.translate-area .text-area {
+  background-color: #fff;
+  padding: 30rpx 0 30rpx 30rpx;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.translate-area .icon-star{
+  position: absolute;
+  color: #8995a1;
+  font-size: 40rpx;
+  top: 40rpx;
+  right: 20rpx;
+}
+
+.translate-area .text-title {
+  font-size: 28rpx;
+  color: #8995a1;
+}
+
+.translate-area .text-result {
+  padding: 20rpx 0;
+  width: calc(100% - 40rpx);
+}
+
+.translate-area .text-area {
+  min-height: 250rpx;
+  padding: 40rpx;
+  background-color: #fff;
+}
+
+.translate-area .collected{
+  color: yellow
+}

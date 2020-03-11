@@ -1,0 +1,27 @@
+/* pages/collection/collection.wxss */
+
+.collection-container {
+   margin-top: 40rpx 
+}
+.col-item {
+  color: #fff;
+  display: flex;
+  margin: 0 20rpx 40rpx 20rpx;
+  -moz-box-shadow:2px 4px 8px #333333; -webkit-box-shadow:2px 4px 8px #333333; box-shadow:2px 4px 8px #333333;
+}
+
+.col-item .text-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 150rpx;
+  padding: 20rpx 40rpx;
+  flex: 1;
+  background: #42a9f4;
+}
+
+.col-item .icon-area {
+  padding: 30rpx 40rpx 20rpx 0;
+  background: #42a9f4;
+  color: yellow;
+}

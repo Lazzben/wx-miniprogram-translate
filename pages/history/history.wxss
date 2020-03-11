@@ -1,0 +1,40 @@
+/* pages/history/history.wxss */
+
+.his-item {
+  color: #fff;
+  display: flex;
+  margin: 40rpx 20rpx 0 20rpx;
+  -moz-box-shadow:2px 4px 8px #333333; -webkit-box-shadow:2px 4px 8px #333333; box-shadow:2px 4px 8px #333333;
+}
+
+.his-item .text-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 150rpx;
+  padding: 20rpx 40rpx;
+  flex: 1;
+  background: #42A9F4
+}
+
+.his-item .icon-area {
+  padding: 30rpx 40rpx 20rpx 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #42A9F4;
+}
+
+.his-clearall-wrap {
+  margin: 40rpx;
+  font-size: 30rpx;
+  color: #707070;
+  padding: 0 20rpx 0 0;
+  text-align: center;
+  text-decoration:underline
+}
+
+.collected {
+  color: yellow
+}
+

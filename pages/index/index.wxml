@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='change-lang'>
+    <text>翻译成：</text>
+    <navigator url="/pages/changelang/changelang">
+      <text>{{curlang.chs}}</text>
+      <text class='iconfont icon-down'></text>
+    </navigator>
+  </view>
+
+  <view class='translate-area'>
+    <text class="iconfont icon-close" hidden='{{hideIconClose}}' bindtap='removeInputValue'></text>
+    <view class="textarea-wrap">
+      <textarea class='textarea' placeholder='请输入要翻译的文本' placeholder-style='color: #8995a1' bindinput='onInput' value='{{query}}' bindblur='onTranslate' bindconfirm='onTranslate'></textarea>
+      <view class='zhanwei'></view>
+    </view>
+    <view class='text-area'>
+      <view class="text-title">译文</view>
+      <view class='iconfont icon-star' bindtap='onCollect' wx:if="{{!collected}}" ></view>
+      <view class='iconfont icon-star collected' bindtap='onRemoveCollect' wx:else></view>
+      <view class="text-result" wx:for="{{result}}" wx:key="index">
+        <text selectable="true">{{item.dst}}</text>
+      </view>
+    </view>
+  </view>
+
+
+</view>

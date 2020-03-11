@@ -1,0 +1,16 @@
+<scroll-view>
+  <view class="his-item" wx:for='{{history}}' wx:for-index="index" wx:for-item="his" wx:key="index">
+    <view class="text-area">
+      <text>{{his.query}}</text>
+      <text>{{his.result}}</text>
+    </view>
+    <view class="icon-area">
+      <text class="iconfont icon-close" bindtap="onRemoveHistory" data-sign="{{his.sign}}"></text>
+      <text class="iconfont icon-star" wx:if="{{!his.collected}}" bindtap="onCollect" data-result="{{his.result}}" data-query="{{his.query}}" data-sign="{{his.sign}}"></text>
+      <text class="iconfont icon-star collected" wx:else bindtap="onRemoveCollect" data-sign="{{his.sign}}"></text>
+    </view>
+  </view>
+  <view class="his-clearall-wrap" wx:if="{{hideClearBtn}}">
+    <text class="his-clearall" bindtap="onRemoveall">清除全部</text>
+  </view>
+</scroll-view>

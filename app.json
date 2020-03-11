@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/author/author",
+    "pages/history/history",
+    "pages/collection/collection",
+    "pages/personal/personal",
+    "pages/changelang/changelang"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4285f4",
+    "navigationBarTitleText": "小黄翻译",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "backgroundColor": "#fefefe",
+    "color": "#70707",
+    "selectedColor": "#42a9f4",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "翻译",
+        "iconPath": "assets/img/translate.png",
+        "selectedIconPath": "assets/img/translate-selected.png"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "历史",
+        "iconPath": "assets/img/history.png",
+        "selectedIconPath": "assets/img/history-selected.png"
+      },
+      {
+        "pagePath": "pages/collection/collection",
+        "text": "收藏",
+        "iconPath": "assets/img/star.png",
+        "selectedIconPath": "assets/img/star-selected.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "个人",
+        "iconPath": "assets/img/user.png",
+        "selectedIconPath": "assets/img/user-selected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

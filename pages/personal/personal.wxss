@@ -1,0 +1,25 @@
+/* pages/personal/personal.wxss */
+
+.userinfo-avatar {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.listbox {
+  padding: 0 40rpx;
+  color: #aaa;
+  height: 150rpx;
+  margin: 40rpx 0 0 0;
+  background: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.personal-icon {
+  color: #4285f4;
+  font-size: 50rpx;
+}
+
+.personal-text {
+  margin-left: 30rpx;
+}

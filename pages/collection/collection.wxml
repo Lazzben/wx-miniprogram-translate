@@ -1,0 +1,11 @@
+<scroll-view class="collection-container">
+  <view class="col-item" wx:for="{{collectionList}}" wx:for-index="index" wx:for-item="col" wx:key="index">
+    <view class="text-area">
+      <text>{{col.query}}</text>
+      <text>{{col.result}}</text>
+    </view>
+    <view class="icon-area">
+      <text class="iconfont icon-star" bindtap="onRemoveCollect" data-sign="{{col.sign}}"></text>
+    </view>
+  </view>
+</scroll-view>

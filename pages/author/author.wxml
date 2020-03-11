@@ -1,0 +1,5 @@
+<view class="iconfont icon-back back" bindtap="goPersonal"></view>
+<view class="author">
+  <text class="iconfont icon-email"><text>lazyben_pg@foxmail.com</text></text>
+  <text class="iconfont icon-github"><text>https://github.com/Lazzben</text></text>
+</view>
